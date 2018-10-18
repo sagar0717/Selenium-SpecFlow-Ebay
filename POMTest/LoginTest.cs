@@ -16,6 +16,7 @@ namespace POMTest
             Driver.driver.Manage().Window.Maximize();
             LoginPage lp = new LoginPage();
             lp.navigate();
+            //test
         }
         [Test]
         public void navigateToSignIn()
